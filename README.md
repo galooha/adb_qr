@@ -18,5 +18,6 @@ Existing Node.js alternatives (like `adb-wifi`) often crash with `TypeError: Can
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/adb-qr.git
+   git clone https://github.com/galooha/adb_qr.git
    cd adb-qr
+   python3 adb_qr.py

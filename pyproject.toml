@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adb-qr"
+version = "0.1.0"
+description = "Pair and connect Android Wireless Debugging via terminal QR code"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "qrcode>=7.4",
+    "zeroconf>=0.131.0",
+]
+
+[project.scripts]
+adb-qr = "adb_qr:main"
